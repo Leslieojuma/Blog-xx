@@ -1,0 +1,30 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Heros of the World",
+            "author": "Leslie Ojuma",
+            "date": "2025-06-21",
+            "content": "spider-Man",
+            "image": "https://i.postimg.cc/9F6w19T3/4fd36c75-a312-49fd-9f9c-cb0846ef012d.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Heros Avenger us",
+            "author": "Ann sharp",
+            "date": "2025-06-21",
+            "content":"spider-Man logo",
+            "image":"https://i.postimg.cc/rpnr1PNj/123ea118-c72e-4985-aced-afaedda14e8b.jpg" 
+        },
+        {
+            "id": 3,
+            "title": "Heros",
+            "author": "Sasha Bliss",
+            "date": "2025-06-21",
+            "content": "Daredevil",
+            "image": "https://i.postimg.cc/FK7R4s0b/298e34e8-146c-48f1-8da2-a1e55e476721.jpg"
+        }
+        
+        
+    ]
+}
