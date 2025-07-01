@@ -1,3 +1,5 @@
+const BASE_URL = 'https://json-server-2-cu0m.onrender.com';
+
 // Show post details
 function showPost(post) {
   const detail = document.getElementById('post-detail');
@@ -11,14 +13,14 @@ function showPost(post) {
 
 // Fetch and show one post
 function handlePostClick(id) {
-  fetch(`http://localhost:3000/posts/${id}`)
+  fetch(`${BASE_URL}/posts/${id}`)
     .then(res => res.json())
     .then(showPost);
 }
 
 // Fetch and display all post titles
 function displayPosts() {
-  fetch('http://localhost:3000/posts')
+  fetch(`${BASE_URL}/posts`)
     .then(res => res.json())
     .then(posts => {
       const list = document.getElementById('post-list');
@@ -39,5 +41,4 @@ function displayPosts() {
     });
 }
 
-// Start app when DOM is ready
 document.addEventListener('DOMContentLoaded', displayPosts);
